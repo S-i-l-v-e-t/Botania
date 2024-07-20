@@ -24,11 +24,11 @@ public class EthicalComponent extends SerializableComponent {
 	}
 
 	public final boolean isUnethical() {
-		return unethical;
+		return false;
 	}
 
 	public final void markUnethical() {
-		unethical = true;
+		return;
 	}
 
 	@Override
